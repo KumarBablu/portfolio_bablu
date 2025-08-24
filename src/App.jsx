@@ -401,7 +401,7 @@ const Hero = ({ PROFILE, firstHero }) => (
                 src={firstHero || "https://images.unsplash.com/photo-1551281044-8b89cbf8b9c5?q=80&w=1200&auto=format&fit=crop"}
                 onError={(e) => {
                   e.currentTarget.src =
-                    "https://images.unsplash.com/photo-1551281044-8b89cbf8b9c5?q=80&w=1200&auto=format&fit=crop";
+                    "https://drive.google.com/file/d/1PUJQXZtHlb4AXBCTO28vTIV9FYALNSQv/view?usp=drive_link";
                 }}
               />
             </div>
